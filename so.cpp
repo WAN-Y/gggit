@@ -45,9 +45,9 @@ int main()
             break;
         case 3:
             x='/';
-            if(a==0)
+            if(b==0)
                 //printf("a为0\n");
-                a=rand()%100;
+                b=rand()%100;
                 //printf("现在a=%d\n",a);
             //v=(float)a/b;
             break;
@@ -70,23 +70,28 @@ int main()
             break;
         case 3:
             y='/';
-            do
-            {
-                if(x=='+')
-                {q=a+b;}
+           // do
+           // {
+           //     if(x=='+')
+           //     {q=a+b;}
                 //printf("q为%.2f\n",q);}
-                else if(x=='-')
-                {q=a-b;}
+           //     else if(x=='-')
+           //     {q=a-b;}
                 //printf("q为%.2f\n",q);}
-                else if(x=='*')
-                {q=a*b;}
+           //     else if(x=='*')
+           //     {q=a*b;}
                 //printf("q为%.2f\n",q);}
-                if(q==0)
-                {
-                    a=rand()%100;
-                    b=rand()%100;
-                }
-            }while(q==0);
+           //     if(q==0)
+           //
+           //     {
+           //         a=rand()%100;
+           //         b=rand()%100;
+           //     }
+                  if(c==0)
+                  {
+                      c=rand()%100;
+                  }
+           // }while(q==0);
             //q=q/c;
             break;
         }
